@@ -17,6 +17,8 @@ header{
 header nav div a img{
     height: 20%;
     width: 20%;
+    animation-name: ima;
+    animation-duration: 3s;
 }
 a{
     font-size: large;
@@ -41,6 +43,8 @@ main h1{
 .galeria{
     height: auto;
     grid-area: galeria;
+    animation-name: animacion;
+    animation-duration: 3s;
 }
 .galeria img {
     width: 60%;
@@ -74,5 +78,24 @@ footer ul{
 @media only screen and (min-width: 1027px) {
     .galeria img {
         width: 60%;
+    }
+}
+@keyframes animacion {
+    to{
+        transform: scale(.8);
+    }
+    from{
+        transform: scale(1);
+    }
+}
+img:hover{
+    animation-play-state: running;
+}
+@keyframes ima{
+    0%{
+        transform: rotate(360);
+    }
+    100%{
+        transform: rotate(360deg)
     }
 }
