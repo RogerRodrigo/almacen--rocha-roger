@@ -1,0 +1,40 @@
+@import "./utilities/variables";
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: $colorback;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    min-height: 100%;
+}
+header{
+        background-color: $colornav;
+        margin: 3% 0;
+        border: 1px solid black;
+        img{
+            height: 20%;
+            width: 20%;
+        }
+}
+main{
+    background-color: $colorback;
+    h1{
+        border: 6px solid black;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+.galeria{
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,130px);
+    row-gap: 10px;
+    img{
+    width: 60%;
+    height: 130px;
+    justify-self: center;
+    }
+}
