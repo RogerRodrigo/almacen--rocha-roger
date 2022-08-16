@@ -1,0 +1,7 @@
+@mixin medidas ($width, $height) {
+    width: 20%;
+    height: 20%;
+}
+@mixin fondo {
+    background-color: beige;
+}

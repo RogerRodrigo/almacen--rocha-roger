@@ -37,41 +37,4 @@ main h1 {
   width: 60%;
   height: 130px;
   justify-self: center;
-}
-
-@media only screen and (min-width: 700px) {
-  .galeria img {
-    width: 40%;
-  }
-  .footer ul li a img {
-    height: 10px;
-    width: 10px;
-  }
-}
-@media only screen and (min-width: 1027px) {
-  .galeria img {
-    height: 300px;
-    width: 400px;
-  }
-  .grid-container {
-    height: auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 400px);
-    row-gap: 10px;
-  }
-}
-footer {
-  background-color: transparent;
-}
-footer ul {
-  justify-content: left;
-  list-style: none;
-  display: flex;
-}
-footer ul img {
-  width: 40px;
-  height: 40px;
-}
-
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=style.css.map */

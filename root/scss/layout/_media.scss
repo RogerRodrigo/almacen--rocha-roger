@@ -1,0 +1,22 @@
+@media only screen and (min-width: 700px) {
+    .galeria img {
+        width: 40%;
+    }
+    .footer ul li a img{
+        height: 10px;
+        width: 10px;
+    }
+}
+@media only screen and (min-width: 1027px) {
+    .galeria img {
+        height: 300px;
+        width: 400px;
+    }
+    .grid-container{
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 400px);
+        row-gap: 10px;
+    }
+}

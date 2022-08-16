@@ -1,0 +1,8 @@
+header{
+    @include fondo;
+    margin: 3% 0;
+    border: 1px solid black;
+    img{
+        @include medidas(20%, 20%);
+    }
+}
